@@ -1,0 +1,169 @@
+*{ margin:0; padding:0; font-family:"Microsoft yahei",serif;}
+ li{ list-style-type: none;}
+	html{
+				/* overflow:hidden; */
+				width:100%;
+				height:100%;
+				
+			}
+			.navbar-nav>li>a{
+				color: #833E34 !important;
+			}
+			.navbar-nav > li > span{
+				margin-right: 4px;
+			}
+			.navbar-nav>li>a:hover{
+				color: #BF6A54 !important;
+			}
+			.navbar-brand{
+				font-size: 24px;
+				color: #BF6A54 !important;
+			}
+            #box{
+                position: relative;
+                overflow: hidden;
+                width: 1100px;
+                margin: 10px auto 0 140px;
+            }
+            #box .rol{
+                float: left;
+                width: 230px;
+                margin: 20px;
+            }
+            #box .rol li{
+                position: relative;
+                width: 100%;
+                margin: 30px 0;
+                font-size: 14px;
+                background: #f7e9ee;
+            }
+            #box .rol li p{
+                text-indent: 10px;
+                font-weight: bolder;
+                margin: 3px;
+            }
+            #box .rol li p a{
+                color: #333333;
+            }
+            #box .rol li p a:hover{
+                color: #ff4398;
+            }
+            #box .rol li p span{
+                font-weight: normal;
+                font-style: italic;
+            }
+            #box .rol li p span.high{
+                color: red;
+            }
+            #box .rol li p span.middle{
+                color: #007598;
+            }
+            #box .rol li p span.low{
+                color: #3cab2c;
+            }
+			/* 海报特效 */
+			
+			.Carousel .list{
+				position: relative;
+				width: 95%;
+				height: 440px;
+				/* border: 1px solid red; */
+				margin:0 auto;
+			}
+			.Carousel .list .box{
+				position: relative;
+				overflow: hidden;
+				width: 1100px;
+				height: 100%;
+				margin:0 auto;
+				/* border: 1px solid blue; */
+			}
+			.Carousel .list .box ul{
+				position: absolute;
+				left:-600px;
+				width:400%;
+				height: 400px;
+				padding:40px 0 0;
+				transition: left .5s;
+				/* border: 1px solid green; */
+			}
+			.Carousel .list .box li{
+				float: left;
+				width: 230px;
+				height: 340px;
+				margin-left:24px;
+				transition: all .5s;
+				transform: scale(.8);
+			}
+			.Carousel .list .box li img{
+				width: 100%;
+				height: 100%;
+			}
+			.Carousel .list .box li.mid{
+				transform: scale(1.2);
+			}
+			.Carousel .list .box li.edge{
+				transform: scale(1);
+			}
+		/*btn*/
+		.btn1{
+			position: absolute;
+			top:45%;
+			width: 48px;
+			height: 48px;
+			cursor:pointer;
+		}
+		.left{
+			left:0;
+			background: url(./img/t_l.png);
+		}
+		.right{
+			right:0;
+			background: url(./img/t_r.png);
+		}
+
+		/*tab*/
+		.Carousel .class-tab{
+			position: absolute;
+			bottom:0;
+			left:50%;
+			width: 252px;
+			height: 14px;
+			margin-left:-8%;
+		}
+		.Carousel .class-tab li{
+			float: left;
+			width: 8px;
+			height: 8px;
+			margin:0 7px;
+			border:3px solid #7BAEC7;
+			border-radius: 50%;
+			background: #7BAEC7;
+		}
+		.Carousel .class-tab li:nth-child(5){
+			background: #006597;
+			border:3px solid #006597;
+
+		}
+		.Carousel .class-tab li:nth-child(4),#classic .class-tab li:nth-child(6){
+			background: #488FB2;
+			border:3px solid #488FB2;
+		}
+		.Carousel .class-tab li.on{
+			background: transparent;
+			border:3px solid #A7C31E;
+		}
+
+		/* 轮播响应式 */
+		@media screen and (max-width: 1200px){
+			.Carousel .list{
+				width:830px;
+				/* border: 1px solid red; */
+				margin:0 auto;
+				overflow:hidden;
+			}
+			.Carousel .list .box ul{
+				left:-740px;
+			}
+			
+		}

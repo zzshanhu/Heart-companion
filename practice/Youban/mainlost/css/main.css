@@ -1,0 +1,734 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html, body {  
+    height: 100%;  
+   }  
+.bodyContent{
+	background: url(../img/bodybg1.png);
+	/*background-repeat: no-repeat;*/
+	background-size: 45%;
+}
+.container{
+	background: url(../img/bodybg.png);
+	margin-top: 20px;
+	box-shadow: 0 0 30px #A3B98D ;
+	z-index: 1;
+	/*position: relative;*/
+}
+.footer{
+	margin-top: 30px;
+	height: 100px;
+	background-color: #ccc;
+	text-align: center;
+	line-height: 100px;
+	color: #666;
+}
+.navbar-brand{
+	font-size: 24px;
+	color: #BF6A54 !important;
+}
+.navbar-default{
+	background: none;
+	border: none;
+	font-size: 15px;
+}
+.navbar-nav>li>a{
+	display: inline-block;
+    font-weight: 600;
+	color: #833E34 !important;
+}
+.loginbtn,.regbtn{
+	position: relative;
+	padding: 15px 5px !important;
+}
+.navbar-nav>li>a:hover{
+	color: #BF6A54 !important;
+}
+.content{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.phtoSet{
+	position: relative;
+}
+.photoSet,.photoWrap,.photo{
+	width: 150px;
+	border-radius: 50%;
+	margin: 10px auto;
+}
+.photoSet .photoWrap .photo{
+	width: 150px;
+	height: 150px;
+}
+.photoInfo{
+	position: relative;
+}
+.usernameSet{
+	position: relative;
+    margin-top: 10px;
+	text-align: center;
+	font-size: 18px;
+}
+.username{
+	font-size: 20px;
+}
+.intro{
+	position: relative;
+	margin-top: 6px;
+    text-align: center;
+    line-height: 18px;
+}
+.personInfo{
+	position: relative;
+/*	height: 280px;*/
+	border: 1px solid #ccc;
+	padding-bottom: 20px: 
+}
+.rowpadding{
+	padding: 20px;
+	padding-top:0;
+}
+.photoList{
+	/*width: 100%;*/
+	margin-top: 10px;
+}
+.photoList .innerwrap ul{
+	margin: 0 -6px -6px 0;
+}
+.title{
+	border-bottom: 1px solid #ccc;
+	position: relative;
+    height: 38px;
+    padding: 0 16px;
+    line-height: 38px;
+    /*overflow: hidden;*/
+}
+.innerwrap{
+	border: 1px solid #ccc;
+	border-top: none;
+	position: relative;
+    padding: 6px;
+    /*line-height: 38px;*/
+    overflow: hidden;
+}
+.personnel{
+	position: relative;
+}
+.perDetaile{
+	width: 100%;
+	position: relative;
+	border: 1px solid #ccc;
+	border-bottom: none;
+	margin: 8px 0 0;
+	overflow: hidden;
+}
+.personFace{
+	padding: 20px;
+	position: relative;
+	width: 50px;
+	float: left;
+}
+.personFace,.face,.face>img{
+	border-radius: 50%;
+}
+.detail{
+	float: left;
+	margin-left: 60px;
+}
+.usernameInfo{
+	margin-bottom: 5px;
+	padding: 20px 0 0;
+}
+.nameText{
+	color: #333;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 700;
+}
+.writeTime{
+	margin-bottom: 2px;
+}
+.timeText{
+
+	color: #808080 !important;
+	text-decoration: none;
+}
+.artiBox{
+	position: relative;
+	width: 80%;
+	margin: 80px 30px -50px 100px;
+    min-height: 100px;
+	text-align: left;
+}
+.artiCon{
+    padding: 10px;
+}
+.artiPic{
+	margin: 10px;
+}
+.glyphicon{
+	padding: 0 5px;
+}
+.userphoto{
+	border-radius: 50%;
+	margin: 0 8px;
+    margin-right: -9px;
+}
+.personDetail{
+	margin: 0px auto 10px;
+	overflow: hidden;
+}
+.statusList{
+	margin-bottom: 0;
+}
+.ulDetail{
+	width: 80%;
+	display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+	list-style: none;
+}
+.item{
+	width: 100%;
+	padding: 7px 0 7px 0;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    line-height: 18px;
+    border-color: #f2f2f5;
+    display: block;
+    float: left;
+}
+.editInfo{
+	margin-bottom: 30px;
+	position: relative;
+	height: 30px;
+	text-align: center;
+	border:1px solid #ccc;
+	border-top: none;
+}
+.editItem{
+	text-decoration:none;
+	color: #333;
+	text-align: center;
+	line-height: 30px;
+}
+.objname{
+	float: left;
+	font-size: 16px;
+	color: #333;
+	font-weight: 700;
+}
+.glyphicon-menu-right{
+	font-size: 8px;
+	color: gray;
+}
+.clearUl:after{
+	content:""; 
+	display: block; 
+	clear: both; 
+}
+.photoFix{
+	/*width: 100%;*/
+	display: block;
+	list-style: none;
+}
+.userwrap{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.bigimg{
+	height: 190px !important;
+    width: 190px !important;
+}
+.photoList .innerwrap li{
+	float: left;
+/*	width: 92px;
+	height: 92px;*/
+    margin: 0 6px 6px 0;
+}
+.photoList .innerwrap{
+	padding: 6px;
+}
+.photoList .innerwrap li img{
+	/*float: left;*/
+	height: 100%;
+    width: 100%;
+}
+.photoTitle{
+	border: 1px solid #ccc;
+	position: relative;
+    height: 38px;
+    padding: 0 16px;
+    line-height: 38px;
+}
+.articleFoot{
+    overflow: hidden;
+}
+.statusList{
+	text-align: center;
+	margin-top: 60px;
+	height: 40px;
+	border-top:1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	list-style: none;
+}
+.statusList>li{
+	float: left;
+	width: 25%;
+	height: 38px;
+}
+.statusList>li{
+	display: block;
+    height: 22px;
+    margin: 7px 0;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #ccc;
+    line-height: 22px;
+}
+.views{
+	border-left-style: none !important;
+}
+.line{
+	border-left-width: none;
+	padding: 0 8px;
+}
+.statusList>li>a{
+	text-decoration: none;
+}
+a{
+	color: #666;
+}
+a:hover{
+	text-decoration: none;
+	color: #BF6A54;
+}
+.basicInfo{
+	padding:10px 0;
+	border:1px solid #ccc;
+	/*height: 800px;*/
+}
+.infoTitle{
+	margin: 15px 0 11px;
+}
+.titleTxt{
+	font-size: 16px;
+	padding: 0 0 2px 15px;
+	color: #333;
+	text-decoration: none;
+}
+fieldset,legend{
+	font-weight: bold;
+	overflow: hidden;
+}
+.pInfo{
+	overflow: hidden;
+	font-size: 14x;
+    line-height: 30px;
+    margin-bottom: 8px;
+    display: block;
+    position: relative;
+}
+.pTit{
+	overflow: hidden;
+	float: left;
+	margin-left: 50px;
+    width: 53px;
+    text-align: right;
+    color: #808080;
+	text-decoration: none;
+    white-space: nowrap;
+}
+.pTxt{
+	margin-left: 100px;
+    padding: 0 30px;
+    word-wrap: break-word;
+}
+.btns{
+	float: right;
+    position: relative;
+}
+.editBtn{
+	width: 40px;
+	text-align: center;
+	border:1px solid #d9d9d9;
+	margin-right: 25px;
+	text-decoration: none;
+	color: #808080;
+	font-size: 14px;
+	font-weight:10 !important;
+	display: inline-block;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #f2f2f2;
+}
+.editBtn:hover{
+	color: white;
+	background-color: #D1D793;
+}
+.leftCon{
+	left: 40px;
+}
+.pTxt>a{
+	color: #666;
+}
+.pTxt>a:hover{
+	text-decoration: none;
+	color: #BF6A54;
+}
+.photoWall{
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+}
+.photoUl{
+	position: relative;
+	display: block;
+	height: 300px;
+	border-bottom: 1px solid #ccc;
+}
+.photoLi,.pic{
+	width: 250px;
+	height: 250px;
+	list-style: none;
+	/*margin: 0 auto;*/
+}
+.photoLi{
+	margin: 5px 5px;
+	position: relative;
+	float: left;
+}
+.pic{
+	position: absolute;
+}
+.photoTxt{
+	color: #808080;
+}
+.photoTit{
+	margin:20px 0;
+	height: 30px;
+	border-bottom: 1px solid #ccc;
+}
+.titleT{
+	width: 100%;
+	height: 100%;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+}
+.photoCont{
+	width: 90%;
+	margin: 0 auto;
+}
+.photoLis{
+	position: relative;
+}
+input{
+	font-size: 14px;
+	line-height: 2;
+	border:1px solid #ccc;
+	text-indent: 1em;
+}
+textarea{
+	text-indent: 1em;
+	border:1px solid #ccc;
+}
+select{
+	font-size: 14px;
+	border:1px solid #ccc;
+}
+/*.showRight,.showLeft{
+	float: left;
+}*/
+.showPic{
+	position: relative;
+}
+.showPhoto{
+	margin: 20px auto;
+	z-index: 1;
+}
+.showHead{
+	position: relative;
+}
+.showselfHead{
+	background: url(../img/fmbg9.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+	position: relative;
+}
+/*.showSelf{
+	position: absolute;
+}*/
+.comarea{
+	overflow: hidden;
+}
+.comArea{
+	width: 100%;
+	margin-left: 10px;
+	padding: 10px;
+	position: relative;
+	display: inline-block;
+}
+.comArea>span{
+	padding-right: 20px;
+}
+.comPer{
+	float: left;
+	color: #BF6A54;
+	/*width: 16%;*/
+}
+.comCont{
+	float: left;
+	color: #333;
+	/*width: 70%;*/
+}
+.comTime{
+	color: #808080;
+	margin-right:0;
+	float: right;
+	 /*width: 10%;*/
+}
+.comPer,.comCont{
+	font-size: 15px;
+}
+.comTime{
+	font-size: 13px;
+}
+textarea{
+	line-height: 2 !important;
+}
+.inTxt{
+	margin: 8px 30px 0;
+}
+.inpBtn{
+	position: relative;
+	float: right;
+	line-height: 1;
+}
+.inbox{
+	width: 100%;
+	color: #333;
+}
+.btnbox{
+	overflow: hidden;
+	margin: 8px 30px 0;
+}
+.small_img{
+    width: 50%;
+    height: 50%;    
+}
+.big_img{
+	cursor: pointer;
+}
+.comtime{
+	overflow: hidden;
+}
+.commentArea{
+	border-bottom:1px solid #ccc;
+}
+/*.navbar-collapse{
+	background-image: url('./img/bodybg.png');
+	opacity: 0.5;
+}*/
+/*回到顶部按钮*/
+.boxbtn{
+    position:fixed;
+    right:10px;
+    bottom: 10px;
+    height:35px;
+    width: 50px;    
+    text-align:center;
+    padding-top:20px;    
+    background-color: #BF6A54;
+    opacity: 0.3;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.boxbtn:hover:before{
+	cursor: pointer;
+    top:50%
+}
+.boxbtn:hover .box-in{
+    visibility: hidden;
+}
+.boxbtn:before{
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    content:'回到顶部';
+    width: 40px;
+    color:white;
+}    
+.box-in{
+    visibility: visible;
+    display:inline-block;
+    height:20px;
+    width: 20px;
+    border: 4px solid;
+    border-color: white transparent transparent white;
+    transform:rotate(45deg);
+}
+/*回到顶部按钮结束*/
+/* 笑一笑模态框样式 */
+.laugh-button{
+	position:fixed;
+	top:100px;
+	left:-100px;
+    width: 150px;
+    height: 50px;
+    border:none !important;
+    outline: none !important;
+    text-align: left;
+    z-index: 1000;
+    background: transparent url(../img/cup.png) no-repeat center right/50px 50px;
+}
+.btn-default:hover{
+	background-color: #DCE0E3;
+	/*opacity: 0.5;*/
+}
+.laugh-button:hover{
+	left:0;
+    transition:2s;
+}
+.modal-header h3{
+    color:#833E34
+}
+ .right{
+    border: 1px solid #ccc;
+    padding:0 10px 20px 0 !important;
+    margin-top:7px;
+}
+.right .title{
+    width:100%;
+    height:50px;
+    /* background: gray; */
+    border-bottom:1px dashed #ddd;
+    line-height:50px;
+    text-indent:10px;
+    font-size:16px;
+    color:#833E34;
+}
+.right .title button{
+    float:right;
+    margin:8px 10px 0 0;
+}
+.right img{
+    margin-left:44%;
+    animation: auto 2s linear infinite;
+}
+@keyframes auto{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+.right .laughName{
+    height:50px;
+    line-height:50px;
+    text-indent:20px;
+    font-weight:bolder;
+
+}
+.right .laughContent{
+    border-bottom:1px dashed #ddd;
+    border-top:1px dashed #ddd;
+    padding-left: 20px;
+    line-height: 25px;
+    border-radius:20px;
+}
+@media screen and (max-width: 1200px) {
+    .laugh-right{
+        display: none;
+    }
+    .laugh-button{
+        display: block;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .laugh-button{
+        display: none;
+    }
+}
+/* 笑一笑模态框样式结束 */
+/* 说说发表框 */
+/* 说说发表框 */
+.fmbg-content{
+	position: absolute;
+	top: 0;
+	left:0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
+	width: 70%;
+	height: 240px;
+	/*border: 1px solid red;*/
+	/*margin:100px 0 ;*/
+	font-size: 18px;
+}
+.fmbg-content .title-txt{
+	height: 50px;
+}
+.fmbg-content .content-title{
+	display: inline-block;
+	width: 80%;
+	height: 150px;
+	padding-top:10px;
+	border: 1px solid #999;
+	text-indent:20px;
+	letter-spacing:4px;
+	border-radius:20px;
+	outline: none;
+}
+.fmbg-content .btn{
+	position: absolute;
+	right: 20%;
+	bottom: 20px;
+}
+/* 说说发表框结束 */
+.formposition{
+		width: 60%;
+        margin: 0 auto;
+	}
+#upload_img_wrap li img{
+    	width: 25%;
+    	height: 100px;
+    }
+#upload_img_wrap{
+    overflow: hidden;
+    margin-top: -16px;	
+    }
+#edui16_elementpath,#edui16_wordcount{
+		display: none;
+	}
+.referbtn{
+	margin-top: 10px;
+
+}
+#j_upload_img_btn{
+	border:white;
+	background-color: white;
+}
+.addbtn{
+	margin-left: 10px;
+	font-size:15px;
+	width: 120px;
+	height:30px;
+	color: white;
+	background-color: #BF6A54;
+	border:#BF6A54;
+	border-radius: 5px;
+}
+#edui16{
+	top: -20px;
+}

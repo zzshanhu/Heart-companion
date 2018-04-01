@@ -1,0 +1,302 @@
+		body{
+			background: url('../img/banner4.png');
+			/*background-repeat: repeat;*/
+			background-position: 0  -92px;
+			background-size:100%;
+		}	
+		.con{
+			width: 80%;
+			height: 700px;
+			position: relative;
+			left: 10%;
+			top: 50px;
+			bottom: 20px;
+			border-radius: 15px;
+			/*border:2px solid #495A80;*/
+			box-shadow: 0 0 40px #DEECF5;
+			background-color: #fff;
+		}
+		.con h3{
+			color: #BF6A54;
+			position: absolute;
+			left: 2%;
+			top: 0;
+		}
+		.left_line{
+			width: 2px;
+			height: 60px;
+			background-color: #BACCC3;
+			position: absolute;
+			left: 130px;
+			top: 10px;
+		}
+		.con h4{
+			position: absolute;
+			color: #BF6A54;
+			left: 150px;
+			top: 40px;
+		    margin-left: 10px;
+		}
+		.login{
+			position: absolute;
+			left: 82%;
+			top: 55px;
+		}
+		#login{
+			height: 20px;
+			position: absolute;
+			left:90%;
+			top: 55px;
+		}
+		.con_left{
+			width: 20%;
+			height: 90%;
+			position: absolute;
+			left: 0;
+			top: 80px;
+		}
+		.img1{
+			width: 65%;
+			height: 15%;
+			position: absolute;
+			left: 13%;
+			top: 50px;
+			transform: rotate(-30deg);
+		}
+		.img2{
+			width: 65%;
+			height: 15%;
+			position: absolute;
+			left: 10%;
+			top: 240px;
+		}
+		.img3{
+			width: 65%;
+			height: 15%;
+			position: absolute;
+			left: 13%;
+			top: 440px;
+			transform: rotate(30deg);
+		}
+		.line{
+			width: 2px;
+			height: 92%;
+			background-color: #BACCC3;
+			position: absolute;
+			left: 93%;
+			top: 0;
+		}
+		.con_right{
+			margin-bottom: 50px;
+			width: 80%;
+			height: 90%;
+			position: absolute;
+			left: 20%;
+			top: 80px;
+		}
+		.top_line{
+			width: 90%;
+			height: 2px;
+			position: absolute;
+			left: 2%;
+			top: 1px;
+			background-color: #BACCC3;
+		}
+		
+		#upload{
+			width: 110px;
+			height: 110px;
+			border-radius: 50%;
+			overflow: hidden;
+			border: 1px solid rgb(203,131,110);
+			position: absolute;
+			left: 70%;
+			top: 60px;
+			overflow: hidden;
+		}
+		#j_upload_img_btn{
+			background-color: #fff;
+			/*border-radius: 5px;*/
+			border:white;
+			height: 30px;
+			color: black;
+			position: absolute;
+			left: 72.5%;
+			top: 180px;
+		}
+		#j_upload_img_btn:hover{
+			color: rgb(131,152,164);
+		}
+		#imgval{
+			width: 110px;
+			height: 110px;
+			position: absolute;
+			left: 70%;
+			top: 60px;
+		}
+
+		.nick{
+			height: 20px;
+			position: absolute;
+			left: 8%;
+			top: 60px;
+		}
+		#nick .help-block{
+			height: 20px;
+			position: absolute;
+			left: 52%;
+			top: 60px;
+		}
+		#nickname{
+			width: 35%;
+			position: absolute;
+			left: 15%;
+			top: 55px;
+		}
+		.user {
+			height: 20px;
+			position: absolute;
+			left: 8%;
+			top: 115px;
+		}
+		#user .help-block{
+			height: 20px;
+			position: absolute;
+			left: 52%;
+			top: 115px;
+		}
+		#username{
+			width: 35%;
+			position: absolute;
+			left: 15%;
+			top: 110px;
+		}
+		.passwd {
+			height: 20px;
+			position: absolute;
+			left: 8%;
+			top: 165px;
+		}
+		#pwd .help-block{
+			height: 20px;
+			position: absolute;
+			left: 52%;
+			top: 165px;
+		}
+		#passwd{
+			width: 35%;
+			position: absolute;
+			left: 15%;
+			top: 160px;
+		}
+		.repwd {
+			height: 20px;
+			position: absolute;
+			left: 5%;
+			top: 215px;
+		}
+		#repwd .help-block{
+			height: 20px;
+			position: absolute;
+			left: 52%;
+			top: 215px;
+		}
+		#repasswd{
+			width: 35%;
+			position: absolute;
+			left: 15%;
+			top: 210px;
+		}
+		.telnum {
+			height: 20px;
+			position: absolute;
+			left: 5%;
+			top: 265px;
+		}
+		#telnum .help-block{
+			height: 20px;
+			position: absolute;
+			left: 52%;
+			top: 265px;
+		}
+		#tel{
+			width: 35%;
+			position: absolute;
+			left: 15%;
+			top: 260px;
+		}
+		.sex{
+			height: 20px;
+			position: absolute;
+			left: 8%;
+			top: 310px;
+		}
+		#sex{
+			width: 30%;
+			position: absolute;
+			left: 15%;
+			top: 310px;
+		}
+		#date .day{
+			height: 20px;
+			position: absolute;
+			left: 5%;
+			top: 355px;
+		}
+		.date{
+			width: 75%;
+			position: absolute;
+			left: 15%;
+			top: 355px;
+		}
+		#date #verifydate{
+			height: 20px;
+			position: absolute;
+			left: 52%;
+			top: 350px;
+		}
+		#hob span{
+			height: 20px;
+			position: absolute;
+			left: 8%;
+			top:405px;
+		}
+		#hobby{
+			width: 55%;
+			position: absolute;
+			left: 15%;
+			top: 400px;
+		}
+		#mt span{
+			height: 20px;
+			position: absolute;
+			left: 5%;
+			top:455px;
+		}
+		#motto{
+			width: 55%;
+			position: absolute;
+			left: 15%;
+			top: 450px;
+		}
+		#registerbtn{
+			width: 30%;
+			height: 40px;
+			font-size: 18px;
+			color: white;
+			position: absolute;
+		    left: 26%;
+			top: 520px;
+			border-radius: 5px;
+			background-color: #BACCC3;
+			border: white;
+		}
+		#registerbtn:hover{
+			transform: scale(1.1);
+		}
+		a{
+			color: #CB836E;
+		}
+		a:hover{
+			color: #CB836E;
+		}
